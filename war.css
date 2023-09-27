@@ -1,0 +1,53 @@
+body {
+  background-color: black;
+}
+
+h1 {
+  align-content: center;
+  text-align: center;
+  color: bisque;
+  font-family: "Bebas Neue", sans-serif;
+}
+
+h1 a {
+  text-decoration-line: none;
+  color: #880808;
+}
+
+.page-navigation {
+  display: flex;
+  width: 50%;
+  margin: 25px auto;
+  padding: 10px;
+  justify-content: space-around;
+  align-items: center;
+  size: 50px;
+  font-family: "Bebas Neue", sans-serif;
+  font-size: large;
+}
+
+.page-navigation a {
+  border: dotted #880808 3px;
+  border-radius: 50%;
+  padding: 10px;
+  color: #880808;
+  text-decoration-line: none;
+  cursor: hand;
+}
+
+.page-navigation a:hover {
+  background-color: #880808;
+  border: black dotted 3px;
+  color: black;
+}
+
+h2 {
+  text-align: center;
+}
+
+h2 a {
+  color: whitesmoke;
+  text-decoration-line: none;
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 400%;
+}

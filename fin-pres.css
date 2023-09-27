@@ -1,0 +1,206 @@
+body {
+  background-color: #01013f;
+}
+
+h1 {
+  align-content: center;
+  text-align: center;
+  color: bisque;
+  font-family: "Urbanist", sans-serif;
+}
+
+h1 a {
+  text-decoration-line: none;
+  color: bisque;
+}
+
+/* intro image */
+.intro_image {
+  display: block;
+  margin: auto;
+  width: 50%;
+}
+
+/* navigation */
+.page-navigation {
+  display: flex;
+  border: solid 2px rgba(255, 228, 196, 0.673);
+  width: 50%;
+  margin: 25px auto;
+  padding: 10px;
+  justify-content: space-around;
+  align-items: center;
+  size: 50px;
+  font-family: "Urbanist", sans-serif;
+  font-size: large;
+}
+
+.page-navigation a {
+  border: dotted rgba(255, 228, 196, 0.379) 3px;
+  border-radius: 50%;
+  padding: 10px;
+  color: bisque;
+  text-decoration-line: none;
+  cursor: hand;
+}
+
+.page-navigation a:hover {
+  background-color: bisque;
+  border: rgb(16, 16, 101) dotted 3px;
+  color: #01013f;
+}
+
+p {
+  align-content: center;
+  text-align: center;
+  color: bisque;
+  font-family: "Urbanist", sans-serif;
+  font-size: larger;
+}
+
+/* history page */
+.flex-history {
+  display: flex;
+  flex-direction: row;
+  border: 5px dotted rgba(255, 228, 196, 0.389);
+  margin: 10px;
+  padding: 10px;
+  width: auto;
+  height: auto;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.ancient {
+  border: 5px dotted rgba(255, 228, 196, 0.408);
+  margin: auto;
+  padding: 10px;
+  width: 80%;
+  height: auto;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.ancient p {
+  display: flex;
+  color: bisque;
+  font-family: "Urbanist", sans-serif;
+  font-size: medium;
+  text-align: left;
+}
+
+.christianity {
+  border: 5px dotted rgba(255, 228, 196, 0.408);
+  margin: auto;
+  padding: 10px;
+  width: 80%;
+  height: auto;
+  flex-direction: row;
+  justify-content: space-between;
+  text-align: right;
+}
+
+.christianity p {
+  display: flex;
+  color: bisque;
+  font-family: "Urbanist", sans-serif;
+  font-size: medium;
+  text-align: right;
+}
+
+.kyievan-rus {
+  border: 5px dotted rgba(255, 228, 196, 0.408);
+  margin: auto;
+  padding: 10px;
+  width: 80%;
+  height: auto;
+  flex-direction: row;
+  justify-content: space-between;
+  text-align: left;
+}
+
+.kyievan-rus p {
+  display: flex;
+  color: bisque;
+  font-family: "Urbanist", sans-serif;
+  font-size: medium;
+  text-align: left;
+}
+
+.cossacks {
+  border: 5px dotted rgba(255, 228, 196, 0.408);
+  margin: auto;
+  padding: 10px;
+  width: 80%;
+  height: auto;
+  flex-direction: row;
+  justify-content: space-between;
+  text-align: right;
+}
+
+.cossacks p {
+  display: flex;
+  color: bisque;
+  font-family: "Urbanist", sans-serif;
+  font-size: medium;
+  text-align: right;
+}
+
+.soviet {
+  border: 5px dotted rgba(255, 228, 196, 0.408);
+  margin: auto;
+  padding: 10px;
+  width: 80%;
+  flex-direction: row;
+  justify-content: space-between;
+  text-align: left;
+}
+
+.soviet p {
+  display: flex;
+  color: bisque;
+  font-family: "Urbanist", sans-serif;
+  font-size: medium;
+  text-align: left;
+}
+
+.independent {
+  border: 5px dotted rgba(255, 228, 196, 0.408);
+  margin: auto;
+  padding: 10px;
+  width: 80%;
+  height: auto;
+  flex-direction: row;
+  justify-content: space-between;
+  text-align: right;
+}
+
+.independent p {
+  display: flex;
+  color: bisque;
+  font-family: "Urbanist", sans-serif;
+  font-size: medium;
+  text-align: right;
+}
+
+/* sights page */
+.sights-gallery {
+  border: 3px bisque solid;
+  margin: auto;
+  padding: 10px;
+  float: left;
+}
+
+.img-desc {
+  padding: 15px;
+  text-align: center;
+  color: white;
+  font-family: "Urbanist", sans-serif;
+}
+
+.footer p {
+  color: white;
+  text-align: right;
+  font-size: x-small;
+}
